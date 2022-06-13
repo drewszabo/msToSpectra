@@ -23,7 +23,13 @@ msToSpectra(folder = "<path to .ms files>")
 Path to folder containing one or more `.ms` files.
 
 ## Value
-A S4 Spectra object.
+Returns a S4 Spectra object including:<br>
+#### Sample ID
+#### Precursor m/z
+#### Collision Energy
+#### Product m/z
+#### Product intensity
+#### Product relative intensity
 
 ## Author
 Drew Szabo <br>
