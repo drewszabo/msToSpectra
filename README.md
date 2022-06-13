@@ -25,11 +25,17 @@ Path to folder containing one or more `.ms` files.
 ## Value
 Returns a S4 Spectra object including:<br>
 #### Sample ID
+  A character of the sample ID given in the `.ms` file.
 #### Precursor m/z
+  An integer of the precursor ion mass to charge ratio (assuming charge = +1).
 #### Collision Energy
+  An integer of the collision energy.
 #### Product m/z
+  A list of mass to charge ratios given in the MS2 mass spectrum.
 #### Product intensity
+  A list of intensities for each m/z ion present in mass spectrum.
 #### Product relative intensity
+  A list of intensities, relative to the highest MS2 peak, out of 1000.
 
 ## Author
 Drew Szabo <br>
